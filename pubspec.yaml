@@ -1,0 +1,26 @@
+name: flutter_review_kit
+description: >-
+  Smart app review prompting for Flutter. Condition-based triggering
+  with launch count, days since install, custom events, and happy moments.
+version: 0.1.0
+homepage: https://github.com/ikeno-web/flutter_review_kit
+repository: https://github.com/ikeno-web/flutter_review_kit
+issue_tracker: https://github.com/ikeno-web/flutter_review_kit/issues
+
+environment:
+  sdk: ^3.4.0
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# in_app_review is a peer dependency.
+# Consumers must add it to their own pubspec.yaml:
+#   in_app_review: ^2.0.0
